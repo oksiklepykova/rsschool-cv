@@ -1,4 +1,4 @@
-# rsschool-cv 
+# Rsschool-cv 
 
 https://oksiklepykova.github.io/rsschool-cv/
 
