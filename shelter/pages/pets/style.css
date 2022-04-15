@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header {
+    position: absolute;
+    width: 1200px;
+    height: 60px;
+    left: calc(50% - 1200px/2);
+    top: calc(50% - 60px/2);
+  }
+  
+  .header-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  h1 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #545454;;
+  }
+  p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #F1CDB3
+  }
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  nav li {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 18px;
+    color: #CDCDCD;
+  
+  }
