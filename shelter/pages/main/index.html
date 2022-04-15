@@ -12,16 +12,16 @@
         <div class="nav-items container header-box">
             <div class="header-logo">
                 <h1>Cozy House</h1>
-                <p>Shelter for pets in Boston</p>
+                <p class="subtitle">Shelter for pets in Boston</p>
             </div>
-            <nav class="header-nav">
-                <ul class="nav-items">
+            <div class="nav-menu">
+                <ul class="nav-link">
                     <li class="nav-item"><a href="#about"><u>About the shelter</u></a></li>
                     <li class="nav-item"><a href="#our-pets">Our pets</a></li>
                     <li class="nav-item"><a href="#help">Help the shelter</a></li>
                     <li class="nav-item"><a href="#footer1">Contacts</a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
     </header>
     
@@ -31,14 +31,14 @@
             <div class="content">
                 <h2 class="heading">Not only people <br>need a house</h2>
                 <p class="subheading">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
-                <button class="button-primary">Make a friend</button>
+                <button class="button-primary"><a href="#our-friends1">Make a friend</a></button>
             </div>
             <div class="start-screen-puppy"> 
                 <img src="../../assets/images/start-screen-puppy.jpg" alt="puppy">  
            </div>
         </div>
     </div>
-    <div id="about" class="about">
+    <div id="about" class="about-img">
          <div class="about-content">
             <div class="about-pets">
                 <img src="../../assets/images/about-pets.png" alt="about-pets">
@@ -54,7 +54,7 @@
         </div>
     </div>
     
-    <div class="our-friends">
+    <div class="our-friends" id="our-friends1">
         <div class="pets-content">
             <h3 class="pets-heading">Our friends who
                 <br> are looking for a house</h3>
@@ -80,7 +80,7 @@
             <button class="btn-get">Get to know the rest</button>
         </div>
     </div>
-    <div id="help" class="help">
+    <div class="help-pets" id="help">
        <div class="help-content">
            <h3 class="help-heading">How you can help
                <br>our shelter</h3>
@@ -148,10 +148,14 @@
         <div class="footer-content">
             <div class="contacts">
                 <h3 class="title">For questions <br>and suggestions</h3>
-                 <img src="../../assets/icons/mail.png"  alt="icon-email"> 
-                 <input type="text" placeholder="email@shelter.com">
-                 <img src="../../assets/icons/phone.png" alt="icon-phone">
-                 <input type="phone" placeholder="+13 674 567 75 54">
+                <div class="email">
+                    <img src="../../assets/icons/mail.png"  alt="icon-email"> 
+                    <h4 class="email-text">email@shelter.com</h4>
+                </div>
+                <div class="phone"> 
+                     <img src="../../assets/icons/phone.png" alt="icon-phone">
+                     <h4 class="phone-text">+13 674 567 75 54</h4>
+                </div>
             </div>
             <div class="locations">
                 <h3 class="location-text">We are waiting <br>for your visit</h3>
@@ -165,7 +169,7 @@
                 </div>
             </div>
             <div class="footer-puppy">
-        <!---        <img src="../../assets/images/footer-puppy.png" alt="photo"> -->
+                <img src="../../assets/images/footer-puppy.png" alt="photo"> 
             </div>
         </div>
     </footer>
