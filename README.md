@@ -1,2 +1,3 @@
 # rsschool-cv
-## JavaScript/Front-end 2023Q1
+
+## https://oksiklepykova.github.io/rsschool-cv/cv
